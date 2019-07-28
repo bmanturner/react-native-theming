@@ -7,11 +7,11 @@
   "author": "Ranjan Shrestha <ranjan@sharingapples.com>",
   "license": "MIT",
   "scripts": {
-    "clean": "../node_modules/.bin/rimraf __dist__ && mkdir __dist__",
+    "clean": "./node_modules/.bin/rimraf __dist__ && mkdir __dist__",
     "lint": "eslint src --quiet",
-    "build": "../node_modules/.bin/babel src --out-dir __dist__",
+    "build": "./node_modules/.bin/babel src --out-dir __dist__",
     "prepublishOnly": "npm run lint && npm run clean && npm run build",
-    "watch": "../node_modules/.bin/babel src --out-dir __dist__ -w"
+    "watch": "./node_modules/.bin/babel src --out-dir __dist__ -w"
   },
   "files": [
     "__dist__"

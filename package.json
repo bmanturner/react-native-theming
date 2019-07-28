@@ -1,4 +1,5 @@
 {
+	"name": "react-native-theming",
 	"private": true,
 	"workspaces": [
 		"lib", "demo"

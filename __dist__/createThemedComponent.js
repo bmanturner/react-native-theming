@@ -41,11 +41,11 @@ res[key]=theme.getProp(props[key]);
 return res;
 },{})};return _this;
 
-}_createClass(ThemedComponent,[{key:'componentWillMount',value:function componentWillMount()
+}_createClass(ThemedComponent,[{key:'UNSAFE_componentWillMount',value:function UNSAFE_componentWillMount()
 
 {
 this.unregister=(0,_Theme.registerComponent)(this);
-}},{key:'componentWillReceiveProps',value:function componentWillReceiveProps(
+}},{key:'UNSAFE_componentWillReceiveProps',value:function UNSAFE_componentWillReceiveProps(
 
 nextProps){var _state=
 this.state,theme=_state.theme,props=_state.props;

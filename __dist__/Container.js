@@ -47,11 +47,11 @@ _this.state={
 theme:theme,
 image:theme.getProp(props.image)};return _this;
 
-}_createClass(Container,[{key:'componentWillMount',value:function componentWillMount()
+}_createClass(Container,[{key:'UNSAFE_componentWillMount',value:function UNSAFE_componentWillMount()
 
 {
 this.unregister=(0,_Theme.registerComponent)(this);
-}},{key:'componentWillReceiveProps',value:function componentWillReceiveProps(
+}},{key:'UNSAFE_componentWillReceiveProps',value:function UNSAFE_componentWillReceiveProps(
 
 nextProps){var _state=
 this.state,theme=_state.theme,image=_state.image;
